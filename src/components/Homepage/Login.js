@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import edificasa_logo from '../../assets/img/edificasa_logo.png';
-import inecti_logo from '../../assets/img/inecti_extrasmall.png';
 import {isBrowser, isMobile} from 'react-device-detect';
 import i18next from "i18next";
 import {FaLock} from "react-icons/fa";
@@ -36,8 +34,8 @@ const Login = () => {
                 <div className='d-flex  justify-content-center'>
                     <div className={`d-flex flex-wrap justify-content-center ${isMobile ? 'flex-column' : ''}`}>
                         <div className={`d-flex flex-column justify-content-center ${isMobile ? 'w-100' : 'w-25'}`}>
-                            <div className='d-flex flex-column justify-content-center pr-2 m-2'>
-                                <img className='img-fluid rounded z-depth-3' src={edificasa_logo} alt="EDIFICASA"/>
+                            <div className='d-flex flex-column justify-content-center text-white pr-2 m-2'>
+                                <img className='img-fluid rounded z-depth-3' src="" alt="Reina Madre LOGO"/>
                             </div>
                         </div>
                         <div className={`${isBrowser ? 'home__vertical_separador' : ''} rounded my-5 mx-4`}></div>
@@ -64,8 +62,7 @@ const Login = () => {
                     </div>
                 </div>
                 <div className='d-flex justify-content-end'>
-                    <a href='http://inecti.com' rel="noreferrer" target='_blank'><img src={inecti_logo}
-                                                                                      alt="INECTI"/></a>
+
                 </div>
             </div>
         </div>
