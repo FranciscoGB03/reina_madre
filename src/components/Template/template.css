@@ -1,0 +1,22 @@
+.temp__sidebar{
+    margin-left: auto;
+    margin-right: auto;
+}
+.temp__content{
+    overflow: hidden;
+}
+.temp__footer{
+    background-color: var(--bg-footer);
+    z-index: 11;
+}
+@media screen  and (max-device-width: 480px) {
+    .temp__sidebar{
+        min-width: 95%;
+    }
+}
+@media screen  and (min-device-width: 480px) {
+    .temp__sidebar{
+        min-width: 30%;
+        max-width: 30%;
+    }
+}

@@ -1,0 +1,61 @@
+/*------Variables-----*/
+:root {
+    /* Colores */
+    --bg-footer: #585858;
+    --bg-navbar: #DC8054;
+    --bg-primary: #DC8054;
+    --bg-btn:#8AC440;
+    --bg-btn-hover:#8AC440;
+    --color-black: #000;
+    --color-gray: gray;
+    --color-light-gray: #EFEBEB;
+    --color-navbar: #F4F3F2;
+    --color-text-navbar: #F4F3F2;
+    --link-active-navbar: #F0F0F0;
+    --link-hover-navbar: #F9B77F;
+    --txt-gray: #000;
+    --txt-titulo:#DC8054;
+}
+
+/*------./Variables-----*/
+/*------/body------*/
+body {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*------./body------*/
+/*------Misc------*/
+.cursor {
+    cursor: pointer;
+}
+
+/*------./Misc------*/
+
+
+/*------Tipografía-----*/
+.font-small {
+    font-size: small;
+}
+
+.text-small {
+    font-size: .9rem;
+}
+a:link{
+    text-decoration: none;
+}
+.underlined {
+    text-decoration: underline;
+}
+
+.underlined_hover:hover {
+    text-decoration: underline;
+}
+
+/*------./Tipografía-----*/
+
+
+
+
+

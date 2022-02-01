@@ -1,0 +1,7 @@
+.home__login_container {
+    background-color: var(--color-light-gray);
+}
+
+.home__vertical_separador {
+    border-right: 2px solid var(--color-black);
+}

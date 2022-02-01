@@ -1,0 +1,90 @@
+/*------Backgrounds------*/
+.bg-primary-color {
+    background-color: var(--bg-primary);
+}
+
+/*------./Backgrounds------*/
+
+
+/*------Botones------*/
+/*------./Botones------*/
+
+
+/*------Fonts------*/
+/*@font-face {*/
+/*    font-family: 'Montserrat-Regular';*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    src: local('Montserrat-Regular'), url('./fonts/Montserrat-Regular.otf') format('truetype');*/
+/*}*/
+/*------./Fonts------*/
+
+
+/*------/Tables------*/
+/*------./Tables------*/
+
+
+/*------Links------*/
+.link {
+    text-decoration: none;
+}
+
+.link a:link {
+    color: var(--color-navbar);
+    text-decoration: none;
+}
+
+.link:visited {
+    color: var(--color-navbar);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--link-hover-navbar);
+    text-decoration: underline;
+}
+
+.link:active {
+    color: var(--link-active-navbar);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*-------./links------*/
+
+/*-------/Forms------*/
+/*-------./Forms------*/
+
+/*------Tipografia------*/
+.txts_gray {
+    text-shadow: 2px 2px 8px var(--txt-gray);
+}
+
+.txt_titulo {
+    color: var(--txt-titulo);
+    text-shadow: 2px 2px 8px var(--txt-titulo);
+}
+
+.text-titulo-tabla {
+    color: var(--txt-titulo);
+    text-shadow: 2px 2px 8px var(--txt-titulo);
+}
+
+.text-subtitulos {
+
+}
+.seleccionado{
+    color: white;
+    background:var(--link-hover-navbar);
+}
+/*------./Tipografia------*/
+/*------/bordes------*/
+.border-tabla {
+    border: var(--link-hover-navbar) solid 1px;
+}
+/*------./bordes------*/
+/*------/Navbar------*/
+/*------./Navbar------*/
+
+/*------/sidebar------*/
+/*------./sidebar------*/

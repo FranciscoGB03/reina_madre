@@ -1,0 +1,13 @@
+{
+  "agregarContrato": "Agregar contrato",
+  "cliente": "Cliente",
+  "detallePropiedad": "Detalle de la propiedad",
+  "direccion": "Dirección",
+  "estatus": "Estatus",
+  "fechaCorte":"Fecha corte",
+  "nombre": "Nombre",
+  "observaciones": "Observaciones",
+  "rentaMensual": "Rental mensual",
+  "responsable": "Responsable",
+  "subcategoria": "Subcategoria"
+}

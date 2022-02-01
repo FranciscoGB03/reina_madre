@@ -1,0 +1,48 @@
+/*------/sidebar------*/
+.seleccionado {
+    padding-top: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 18px;
+}
+
+.sidebar__lista {
+    list-style: none;
+}
+
+.sidebarAdmin {
+    height: 85vh;
+    /*position:absolute;*/
+    /*z-index: 100;*/
+}
+
+.sidebar {
+    background-color: var(--bg-navbar);
+    color: var(--color-navbar);
+    z-index: 1700;
+}
+.txt-sidebar{
+    font-size: 1.3rem;
+}
+.sidebar__item > a:link {
+    color: var(--color-navbar);
+    text-decoration: none;
+}
+
+.sidebar__item:visited {
+    color: var(--color-navbar);
+    text-decoration: none;
+}
+
+.sidebar__item:hover {
+    color: var(--link-hover-navbar);
+    text-decoration: underline;
+}
+
+.sidebar__item:active {
+    color: var(--link-active-navbar);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*------./sidebar------*/
